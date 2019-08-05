@@ -1,0 +1,96 @@
+{
+  "id": "99866e4b-a2d1-4666-908b-e296c9dfe32b",
+  "version": "2.0",
+  "name": "Test1",
+  "url": "https://id.rambler.ru/account/registration",
+  "tests": [{
+    "id": "fe9d1343-aa1b-4d70-8bd5-9b1e43905d7d",
+    "name": "Test1",
+    "commands": [{
+      "id": "8f0c8de0-2966-4f35-b29b-28edd522f31a",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22c29f10-308a-463f-9f58-a2ce7afa3890",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85397fd2-7f6b-439a-b971-bdfe85bf6481",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c140e22a-4c4e-46a4-a7f3-57cfccdb49cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "romanliga"
+    }, {
+      "id": "d6d263c1-421f-4b67-ba99-2fb896b6e8a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c0214",
+      "targets": [
+        ["css=.c0214", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ac03ce3-dd78-478d-9f69-80c4bfe7f21a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e89de1-f8a3-4507-bb0c-2114037157a9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Почтовый ящик недоступен для регистрации. Попробуйте другой"
+    }]
+  }],
+  "suites": [{
+    "id": "ee28cb0f-d260-4dcf-8d97-9022369f40e4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fe9d1343-aa1b-4d70-8bd5-9b1e43905d7d"]
+  }],
+  "urls": [],
+  "plugins": []
+}

@@ -1,0 +1,1790 @@
+{
+  "id": "99866e4b-a2d1-4666-908b-e296c9dfe32b",
+  "version": "2.0",
+  "name": "Test1",
+  "url": "https://id.rambler.ru/account/registration",
+  "tests": [{
+    "id": "fe9d1343-aa1b-4d70-8bd5-9b1e43905d7d",
+    "name": "Test1",
+    "commands": [{
+      "id": "8f0c8de0-2966-4f35-b29b-28edd522f31a",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22c29f10-308a-463f-9f58-a2ce7afa3890",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85397fd2-7f6b-439a-b971-bdfe85bf6481",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c140e22a-4c4e-46a4-a7f3-57cfccdb49cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "romanliga"
+    }, {
+      "id": "d6d263c1-421f-4b67-ba99-2fb896b6e8a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c0214",
+      "targets": [
+        ["css=.c0214", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ac03ce3-dd78-478d-9f69-80c4bfe7f21a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e89de1-f8a3-4507-bb0c-2114037157a9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Почтовый ящик недоступен для регистрации. Попробуйте другой"
+    }]
+  }, {
+    "id": "bf5f8fb1-750c-40f0-b468-b2ffbd4e9644",
+    "name": "Test2",
+    "commands": [{
+      "id": "67524685-2b35-4ccb-8f45-99ef335bbcb8",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eabb7047-8256-4a10-b26c-a41ec14ecf37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f75b2fd2-bd5d-4631-8739-b05939178d99",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "romanliga123"
+    }, {
+      "id": "d598e436-2e22-436d-8eaf-f196cb6c83f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div[2]/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bf97066-9bf2-47d7-820d-ca10ea1c365c",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div[2]/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "4807d390-9bb8-4a3f-9e8f-003946cdd87c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-visor-no-click",
+      "targets": [
+        ["css=.-visor-no-click", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc7f08ea-52d5-4640-85e9-fe2213e6f361",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message > div",
+      "targets": [
+        ["css=.rui-InputStatus-message > div", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div[2]/section/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84a48c17-b87e-4122-98b9-a440ff06967b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message > div",
+      "targets": [
+        ["css=.rui-InputStatus-message > div", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div[2]/section/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Пароль должен содержать от 8 до 32 символов, включать хотя бы одну заглавную латинскую букву, одну строчную и одну цифру"
+    }]
+  }, {
+    "id": "f6d6fe35-19a2-4672-96a8-463df983744e",
+    "name": "test3",
+    "commands": [{
+      "id": "d678ed05-b2cb-4797-ba39-555308514fb5",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27c7a0a3-c8d6-4427-8cd5-f99b87311872",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "515bc297-d0d3-4188-beb1-98a48deac488",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a55810b-a365-4d68-911e-de40cb673720",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f06162b-21ae-4e5a-9b81-850997025a55",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1885b893-56ff-40fa-aa97-3af945c8e027",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "romanliga123@gmail.com"
+    }, {
+      "id": "a55499ec-37e4-47d2-afc6-0f7d21520e56",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8651fcc9-c212-4e10-a2ef-8414a2277a82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c57dc0f3-67a8-4045-a794-909ed4a44753",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }, {
+      "id": "ad1d2227-0739-4923-8f29-a26fe722382d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=войдите под своим именем",
+      "targets": [
+        ["linkText=войдите под своим именем", "linkText"],
+        ["css=div:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'войдите под своим именем')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//id.rambler.ru/login-20/login')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'войдите под своим именем')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "339c81c1-81ac-4131-8cd3-5781ab5202a3",
+    "name": "test4",
+    "commands": [{
+      "id": "c8462bec-83bc-476d-89b2-5a26145a58e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08804c45-0b54-46b9-8950-31d1921da27a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f5c1671-288d-4f88-ac33-dda9c9787dc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "8a6da7d6-b3fb-4bc1-bf09-3540a8e1b8a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c0214",
+      "targets": [
+        ["css=.c0214", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4a7999b-6d41-40a0-8a6a-0e0229e198b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a3b9196-ef59-474f-868a-97b9cd294218",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Почтовый ящик недоступен для регистрации. Попробуйте другой"
+    }]
+  }, {
+    "id": "f7075b96-8ba3-44b2-9f75-75d6a99322fc",
+    "name": "Test5",
+    "commands": [{
+      "id": "62471b43-8f71-44c1-b1e7-4585a66f6590",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d2e2b91-f835-4a3c-b1ef-04481bb90fd8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f468f8b1-9f92-405f-b992-99cbb2ff47f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d449f779-c492-40f5-8bfa-473a53f3fad9",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "romanliga!"
+    }, {
+      "id": "b63d08ed-9274-44b2-9506-13b5724958af",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "768afe21-d10d-4c83-9a1d-9ae281ef8ba6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b07f284-55f2-404d-aff5-a874fca3d3eb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "fea47a53-d9ce-4739-84e5-cc443a137394",
+    "name": "test6",
+    "commands": [{
+      "id": "eb2c2548-91cf-4835-9823-0b036b07bf07",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6bb4087-c856-46e8-897a-2b427ce9fe55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f53d85d-1201-4ce9-aab0-c66f2963a998",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0235:nth-child(2) .rui-IconButton-content",
+      "targets": [
+        ["css=.c0235:nth-child(2) .rui-IconButton-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//span[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12686e77-dfc5-445d-aeea-8d20ef61a1c6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.c0235:nth-child(2) .rui-IconButton-content",
+      "targets": [
+        ["css=.c0235:nth-child(2) .rui-IconButton-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//span[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e427117f-3e33-47f2-af1d-46444890ffc2",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "romanliga123!"
+    }, {
+      "id": "ebad0950-843b-4363-886c-3b2519637160",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fba97eab-c263-4feb-ba60-13000ab51041",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34341343-1323-4381-88a0-30d52760623a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "c8bdb67e-b651-4013-9b61-9f9702a49059",
+    "name": "test7",
+    "commands": [{
+      "id": "24bc886b-7422-44a9-8cd6-81168278b37b",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7c16f6d-819e-41ce-91a9-e26cdfc948c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e92fedbb-0ce0-42c9-9cfa-f3c7e555c865",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "!!!"
+    }, {
+      "id": "e67c52ba-5305-45df-888b-127a16710aae",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe18683f-ff58-40f6-a5db-a753f7e91c96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d1ce3e9-5bcf-4949-be40-9ad0fe4bd51e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "91a8c35d-e311-4448-afeb-17eebfbf00da",
+    "name": "test8",
+    "commands": [{
+      "id": "7ce8cddd-0d3e-40cb-86ff-8a32cae9a55b",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c621400-eba4-4b64-b789-e3475dd53c90",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5bbc845-051c-4734-ad1e-4c08558e486e",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "@@@"
+    }, {
+      "id": "6ab02e2f-3f46-4423-9dbf-b98e3ce62d2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37be5458-3d51-4344-bdf2-09bd4d90711c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8686a945-1099-4d1b-b21f-e83e22cad2ff",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "33b01c6e-a60e-47cf-aa38-c8a3749ed6f7",
+    "name": "Test9",
+    "commands": [{
+      "id": "a863cf46-299c-432e-86ad-b94990f1e53e",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4796f500-62fc-4595-b8b3-bc46d3b44c95",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4bba201-859d-4a8f-9186-596d078b1502",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "###"
+    }, {
+      "id": "0faf9c94-ae8f-4a8f-94cd-a42637aa4b2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c0221 .c0215",
+      "targets": [
+        ["css=.c0221 .c0215", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div[2]/section/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/section/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66a1530f-b4bf-4292-b5ce-e21814394983",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message:nth-child(3)",
+      "targets": [
+        ["css=.rui-InputStatus-message:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f943d7-ec84-46d8-b5dc-b09a41ccdf6e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message:nth-child(3)",
+      "targets": [
+        ["css=.rui-InputStatus-message:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "cab3214f-5009-409f-a5d8-6f0a45c44ad8",
+    "name": "test10",
+    "commands": [{
+      "id": "1e1ad458-85a1-4444-b9b0-7ada16ffc956",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab2a4706-3f44-45df-b9d6-719fc498df32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65de269c-2327-4add-b9f5-6cf9c7738f26",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "$$$"
+    }, {
+      "id": "b1c9ee8a-119e-413e-9487-d268fb14741f",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb07b5b6-ec74-4ba2-b79e-e0524499edb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "098fced8-7f1d-4234-92bc-866720ce5253",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "d2b2a2e9-21c9-49b8-a469-b1462d7a1559",
+    "name": "test11",
+    "commands": [{
+      "id": "d5b5d8b3-30ea-4811-bd0f-69e3505d800b",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67a0cc79-ebba-4493-8476-8ac7679ca118",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abafe296-9414-42c4-935f-c9b1fcb38aa0",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "%%%"
+    }, {
+      "id": "a061331f-c7ff-4379-b27a-fec9b817b0bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c0221 .c0215",
+      "targets": [
+        ["css=.c0221 .c0215", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div[2]/section/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/section/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dedbd936-73f2-4b7f-a7cf-76c85a7d4487",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message:nth-child(3)",
+      "targets": [
+        ["css=.rui-InputStatus-message:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "532dde4d-9e6a-40c7-a9af-6c54467860de",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message:nth-child(3)",
+      "targets": [
+        ["css=.rui-InputStatus-message:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "c58f0130-99f2-487f-93ae-8056c6bb9e56",
+    "name": "test12",
+    "commands": [{
+      "id": "1de6cda1-649a-4ba9-83bb-071ea10a516c",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e8951c5-b93a-499a-b8fe-59883fd00b3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a038a2d-3322-4da0-897a-d7c00f1b0fe8",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a260a87e-2af2-4f6c-91b7-f8ea106d6987",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "&&&"
+    }, {
+      "id": "1eada388-bc12-49ab-8c2e-ccc468852360",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a2b5be3-ce33-45f7-82c7-6c958220a9a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c0235:nth-child(6) .rui-IconButton-content",
+      "targets": [
+        ["css=.c0235:nth-child(6) .rui-IconButton-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div/span[6]/button/span", "xpath:idRelative"],
+        ["xpath=//span[6]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2c8e094-c4cb-49ae-b7c0-83bc405a4a26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12f77b37-4717-4575-b00c-d2a1f56111ec",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "1435dfd2-ec77-4539-b580-32cb17a84b8a",
+    "name": "test13",
+    "commands": [{
+      "id": "04d4872f-5477-476e-b6f7-510b99c3bf0c",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a674c864-c872-4564-8f72-db89ecdd19cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe09955a-5a8d-4925-8ec3-36922f28b948",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc45c8b1-0290-4527-b516-a8a39a5dd154",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "***"
+    }, {
+      "id": "dc78bcd1-e5c6-4e76-afaf-20147ab5f94a",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "babdf775-af57-4aac-a8c6-6763c7e49128",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c3699d4-c5d2-475e-965b-8fa8c69a4fc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c0214",
+      "targets": [
+        ["css=.c0214", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a8d577f-728d-4eb8-a410-8b0edc3cf205",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c0214",
+      "targets": [
+        ["css=.c0214", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c549836-a6d3-418c-93bf-3776bf267cc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be3858f2-ac0f-4664-a05f-8146b18bd9f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21d2055e-47d5-4cae-b4f1-274214193d05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e505fb-d4d6-4b45-a5cc-c08b55af3395",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "88e0c2c2-a782-4a22-a355-5c0abedac232",
+    "name": "test14",
+    "commands": [{
+      "id": "44825ff8-e7ec-40bd-97f2-40fc24117fda",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ea6fb5c-6455-4863-87fd-58bec34daf22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e3208c7-0a27-4156-85bd-144d5fc7d6f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "((("
+    }, {
+      "id": "9704fb22-0b44-4923-ac57-15ec788ff215",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3dfa75c-d175-4648-8cf8-ee7c9d941939",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de3f206f-2684-4302-bb27-57bd7c794867",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "538e6059-4ee8-4533-a288-52946a4f0ae2",
+    "name": "test15",
+    "commands": [{
+      "id": "d007a45b-2b26-4c55-9d01-9b6c30563412",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "100c4362-9ee9-461d-9fc8-ecd755b14045",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7222780-1c63-468d-b0d3-5a7525651b18",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ")))"
+    }, {
+      "id": "de909807-5a37-4f39-a56a-e549ebdc8fd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "234e5f37-164f-4e41-9d2b-b17f65c1ad53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c2ea435-8001-4ea8-a027-70ae46815602",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "b7e84f11-bd44-495f-a1c7-9b8312cd4608",
+    "name": "test16",
+    "commands": [{
+      "id": "5060d7c3-ccbc-460f-8677-4e7d1abdfda5",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea900bc5-1ac8-47fe-951d-341894901743",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d422e3ec-f169-4722-8691-d42418df99af",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "---"
+    }, {
+      "id": "546e454d-160e-40b6-8757-36843848e1de",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14ea4814-e931-4ba0-80da-d17bebd0f087",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c35207c-de64-48e1-96ce-25febcd4efec",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "ff708a8b-36de-4a35-9a8b-2b6cccf73b57",
+    "name": "test17",
+    "commands": [{
+      "id": "3d20c5ba-dee7-4985-b8ef-2b6f21d73f9e",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d137282-2397-4ee5-84ee-c694a3c18738",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cbde992-3534-4dbd-aff5-250feaa888f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "___"
+    }, {
+      "id": "c2f582eb-d111-4de5-a92d-82d327a82209",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b047f61-0728-4838-acb5-52cdb98cab8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ea1622-ce0f-44ad-ae23-e5846f5c986e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "cc447a54-40aa-4603-b23c-ad4ee5c802cb",
+    "name": "test18",
+    "commands": [{
+      "id": "eda7f6d9-8eba-49ea-987d-4a0e23f76e09",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1904d13e-7900-4af0-bcc2-9525c5db2920",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0651f385-166c-4d8f-9eae-3c2c1d1a0616",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "==="
+    }, {
+      "id": "e187a60e-0a06-4dcc-9bd1-2d00572e809b",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68455b81-e4f6-4092-a07c-b4917dfe7043",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=войдите под своим именем",
+      "targets": [
+        ["linkText=войдите под своим именем", "linkText"],
+        ["css=div:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'войдите под своим именем')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/div/aside/article/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//id.rambler.ru/login-20/login')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'войдите под своим именем')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9159456b-1656-4ca9-9979-263495bc4bd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f67c4a-258a-4856-9f32-b35ad805d2d9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "d9cb38cf-8b3d-4416-82e5-dd125e3d6db5",
+    "name": "test19",
+    "commands": [{
+      "id": "b28f8c1e-4c78-4a19-ba74-4efc65ab0da5",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48d4f19d-4249-4bea-b335-fcc501bc9f17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04be1943-0e78-49ed-8a9f-e0e9d2e49952",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "+++"
+    }, {
+      "id": "b2e313af-021b-4e5c-adbf-ac38843ccd62",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ffd0b59-f4e4-4a4b-b784-f5a54e6dc3f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5cddc08-2d00-40ce-a8ad-08e85a78d6d3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "f0b1a48c-bce7-4e6a-9ac8-1bacb2d05894",
+    "name": "test20",
+    "commands": [{
+      "id": "01d9338f-91ec-4eef-b58f-fd3ea519d075",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ac7afb9-168f-41c3-9a4e-19bacf9e9671",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5afa545e-2235-4c65-a1e3-94c0b6aa2361",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "[[["
+    }, {
+      "id": "23e99d93-bbc4-4b0b-adcb-f29a2e683b10",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3dc98a5-ff93-4f3b-8499-2979b1513ddc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7010ad54-329b-4b0d-ade8-392811c68439",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04037f33-78a3-40ce-a369-88a1594b16c0",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3830ca64-b697-452a-a057-11bc3665fdaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d650075a-c137-4005-8272-4817a73c9d3b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "d92cdabd-2954-47a7-918b-5597a3bb8d61",
+    "name": "test21",
+    "commands": [{
+      "id": "f1f9182a-5513-4119-944c-ef5083fed1c7",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d342e8f-c7f6-4006-bc00-2bafd4314ce4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae6d57f9-71c6-46a0-96b7-ae00bc1b3ab3",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "{{{"
+    }, {
+      "id": "a857e1c1-9ed0-4815-959c-5790ce0b2400",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f7042dd-11f6-4f3c-a544-f4a88cccc649",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aeaaf10-f6ab-4ce7-a7ac-18dfdcb0fb81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "742df957-bdd9-4649-8d02-3b3926d9484e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "260c6627-6ccf-44f8-b08f-ee94361bc63d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfecd13e-d60e-4d09-b6fc-4d962299cdf9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }, {
+    "id": "c3633439-0361-488b-b2d6-f95e2319c3f3",
+    "name": "test22",
+    "commands": [{
+      "id": "d5f23e7f-3e21-4867-8d2d-d9e4c7a27970",
+      "comment": "",
+      "command": "open",
+      "target": "https://id.rambler.ru/login-20/mail-registration",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "906c5464-7ad8-4eac-8f96-a58d12cffa0d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42f920ff-77ec-4c1a-940e-ff22f0567039",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "]]]"
+    }, {
+      "id": "bb158667-a4ba-4e79-a012-01d4d121b60a",
+      "comment": "",
+      "command": "click",
+      "target": "css=aside",
+      "targets": [
+        ["css=aside", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside", "xpath:idRelative"],
+        ["xpath=//aside", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cc2ef67-9003-448a-b341-1e27bccf7cca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9782f565-b1b3-47c0-b9e9-83079b1258da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d31ca26-8dc8-4fa2-86a2-4683ec5918a1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fda094d8-0517-46cf-954a-3c8ee1024e23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51f6f5ca-1732-4e67-83ae-1de43b765445",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.rui-InputStatus-message",
+      "targets": [
+        ["css=.rui-InputStatus-message", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/div/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Недопустимый логин"
+    }]
+  }],
+  "suites": [{
+    "id": "ee28cb0f-d260-4dcf-8d97-9022369f40e4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fe9d1343-aa1b-4d70-8bd5-9b1e43905d7d"]
+  }],
+  "urls": ["https://id.rambler.ru/account/registration"],
+  "plugins": []
+}

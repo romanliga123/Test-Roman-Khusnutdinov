@@ -1,0 +1,483 @@
+{
+  "id": "6d23bae5-a1b1-411d-8651-eabddd6feb00",
+  "version": "2.0",
+  "name": "rambler",
+  "url": "https://rambler.ru",
+  "tests": [{
+    "id": "a78100cb-d4d5-42ca-a254-76944d9c6783",
+    "name": "rambler",
+    "commands": [{
+      "id": "167c0887-e22a-44a7-8f66-4e8c6dbc3926",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.rambler.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3f905d0-051a-4bc1-8a76-ce7043febd9e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "196fb4d1-63bb-4824-be2d-6de973e64993",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Почта",
+      "targets": [
+        ["linkText=Почта", "linkText"],
+        ["css=.aqyag", "css:finder"],
+        ["xpath=//a[contains(text(),'Почта')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.rambler.ru/?utm_source=head&utm_campaign=self_promo&utm_medium=topline&utm_content=mail')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Почта')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5570",
+      "windowTimeout": 2000
+    }, {
+      "id": "c61ece13-8624-4aaf-81d5-4f8404aa49b0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5570}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a025d1bf-daeb-4562-8bf3-b3081d4193cb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7ac2f12-85c5-4e21-9af0-da8f1ebe668e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9566aa4c-a0a0-4a41-9c3d-c258d9bd78f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a4abd35-9bf5-49a1-80cf-06879efb4584",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be0db856-d91e-42dd-9474-b63d71852875",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "roman_ligalize"
+    }, {
+      "id": "48b75e7c-322b-4ca6-b09f-a025a5cbf439",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0b7120c-29cc-493b-bfaa-33259da4a6be",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Rfqpthcbkf123"
+    }, {
+      "id": "140c75fc-0d0c-45c6-88d8-03dfa066bdff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-content",
+      "targets": [
+        ["css=.rui-Button-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3bac816-160d-4b06-9974-266ecd55b733",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Почта",
+      "targets": [
+        ["linkText=Почта", "linkText"],
+        ["css=.qwsqfm", "css:finder"],
+        ["xpath=//a[contains(text(),'Почта')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.rambler.ru/?utm_source=head&utm_campaign=self_promo&utm_medium=topline&utm_content=mail')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Почта')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5113",
+      "windowTimeout": 2000
+    }, {
+      "id": "2f9cebd4-80dd-4655-b032-8153b4cfa1d1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5113}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e177a6e9-f154-49b6-95cc-50273a338209",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac777093-48e8-46e5-ba9e-b183d2bdd5b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7752f77-b94c-4560-a01d-2852e4e1c148",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "romanliga123@rambler.ru"
+    }, {
+      "id": "693156cb-9d1a-47fa-8eba-0196a9974b07",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91694325-00a5-4b7e-b4fe-463439e0d0a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Rfqpthcbkf123"
+    }, {
+      "id": "15cad061-2635-40e1-b367-0048d2c73691",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-content",
+      "targets": [
+        ["css=.rui-Button-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed4c5c81-d727-4beb-99a5-a9d3aea2bbad",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9e0eef3-2142-4e69-ab55-aacd4c161d2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AutoMaillistItem-subject-2-",
+      "targets": [
+        ["css=.AutoMaillistItem-subject-2-", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[3]/div[2]/div[2]/div/div[3]/div/div[3]/div/div/a/div/span/span", "xpath:idRelative"],
+        ["xpath=//a/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05f250b2-77ce-4af6-ab59-006e630a2541",
+    "name": "test1",
+    "commands": [{
+      "id": "63bc3c47-99b6-4ca4-bb70-60a44948bade",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.rambler.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b682766a-510f-4519-be78-611e43998cfc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67efb8ea-c1d5-4f3e-b7e9-ca2fe11cb1cb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Почта",
+      "targets": [
+        ["linkText=Почта", "linkText"],
+        ["css=.qgoky", "css:finder"],
+        ["xpath=//a[contains(text(),'Почта')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.rambler.ru/?utm_source=head&utm_campaign=self_promo&utm_medium=topline&utm_content=mail')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Почта')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4097ca2-f977-4341-86c6-1ecd6c8f29a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Почта",
+      "targets": [
+        ["linkText=Почта", "linkText"],
+        ["css=.qgoky", "css:finder"],
+        ["xpath=//a[contains(text(),'Почта')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.rambler.ru/?utm_source=head&utm_campaign=self_promo&utm_medium=topline&utm_content=mail')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Почта')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6490",
+      "windowTimeout": 2000
+    }, {
+      "id": "3a740184-c404-4cb9-9b4f-9619c08b2e8a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Почта",
+      "targets": [
+        ["linkText=Почта", "linkText"],
+        ["css=.qgoky", "css:finder"],
+        ["xpath=//a[contains(text(),'Почта')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.rambler.ru/?utm_source=head&utm_campaign=self_promo&utm_medium=topline&utm_content=mail')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Почта')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e951bf9-c82e-494f-ab39-7e5e441e3886",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6490}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cadc6d75-b520-4f90-bc4d-ba23c02f7440",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "bff962bd-86c4-4cf4-9b31-ea0ab4c8bcf4",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a93c5dc5-de76-415a-85f0-d016e87c91a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "roman_ligalize"
+    }, {
+      "id": "1b4cd71d-e235-4876-a572-d10bfd52d318",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9619fb6-575e-4b61-aee3-b2ce0bf193fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "roman_ligalize@rambler.ru"
+    }, {
+      "id": "7e9a91da-396f-4d26-9cbf-84ba234fa74c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00567c91-a93d-478e-bc2f-9f841e35f913",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/section[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Rfqpthcbkf123"
+    }, {
+      "id": "de33df48-9c6b-46b0-9f4f-50589edb6e52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rui-Button-content",
+      "targets": [
+        ["css=.rui-Button-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/article/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db1f826e-c738-404d-b725-93b429b9c308",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd788282-20f2-48f6-9ccc-80b8594d75ce",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.FoldersItem-current-1h > .FoldersItem-title-gl",
+      "targets": [
+        ["css=.FoldersItem-current-1h > .FoldersItem-title-gl", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[3]/div[2]/div/div/div/div/div/ul/li/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Входящие')]", "xpath:innerText"]
+      ],
+      "value": "Входящие"
+    }]
+  }],
+  "suites": [{
+    "id": "4fc5dc41-9392-48c8-9af1-8ae6d7f8d32d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://id.rambler.ru/", "https://rambler.ru/"],
+  "plugins": []
+}
